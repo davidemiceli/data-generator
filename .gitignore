@@ -23,8 +23,9 @@ lib-cov
 coverage
 *.lcov
 
-# nyc test coverage
+# testing coverage
 .nyc_output
+/coverage
 
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
@@ -41,12 +42,14 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+package-lock.json
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
 # TypeScript cache
 *.tsbuildinfo
+next-env.d.ts
 
 # Optional npm cache directory
 .npm
@@ -86,6 +89,7 @@ web_modules/
 # Next.js build output
 .next
 out
+build
 
 # Nuxt.js build / generate output
 .nuxt
@@ -128,3 +132,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# vercel
+.vercel
+
+# IDEs and Text Editors
+*.code-workspace
