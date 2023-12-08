@@ -18,7 +18,13 @@ export default function Navbar() {
                   <Link href="/generate" className="block text-gray-900 rounded hover:text-gray-800">Generate</Link>
                 </li>
                 <li>
-                  <Link href="/other" className="block text-gray-900 rounded hover:text-gray-800">Other</Link>
+                  <Link href="/data" className="block text-gray-900 rounded hover:text-gray-800">Data</Link>
+                </li>
+                <li>
+                  <Link href="/insights" className="block text-gray-900 rounded hover:text-gray-800">Insights</Link>
+                </li>
+                <li>
+                  <Link href="/export" className="block text-gray-900 rounded hover:text-gray-800">Export</Link>
                 </li>
               </ul>
             </div>
